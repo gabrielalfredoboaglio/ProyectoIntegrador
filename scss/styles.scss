@@ -1,1 +1,105 @@
+// Importar el archivo SCSS de Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@media screen and (min-width: 0px) {
+  .gc-navbar-brand {
+    width: 50px !important;
+    height: auto !important;
+  }
+}
+
+.navbar {
+  background-color: var(--bs-light);
+}
+
+@media screen and (min-width: 992px) {
+  .img-home-header-size {
+    background-image: url(../img/home-lg.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.75rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+
+.gc-footer-card {
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 300px;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.p-3 {
+  background-color: #28a745 !important;
+  width: 11em;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.h6 {
+  text-align: center;
+}
+
+.gc-texto-normal {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.gc-texto-resaltado {
+  background-color: #3092fc;
+}
