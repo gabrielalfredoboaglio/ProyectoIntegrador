@@ -8,10 +8,6 @@
   }
 }
 
-.navbar {
-  background-color: var(--bs-light);
-}
-
 .img-home-header-size {
   background-image: url(../img/home-lg.jpg);
   height: 25em;
@@ -127,7 +123,6 @@ footer {
 
 .li {
   display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 .gc-footer-info ul {
