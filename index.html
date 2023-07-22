@@ -16,7 +16,7 @@
   </head>
   <body>
 <header>
-  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar  navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <a href="/index.html">
                 <img class="navbar-brand gc-navbar-brand" src="./img/logoProyectoInt.png" alt="ProyectoGC">
@@ -53,9 +53,9 @@
             <div class="container-fluid text-light mt-sm-1 mt-msd-2">
               <div class="row">
                 <div class="col-12 img-home-header img-home-header-size mb-2">
-                  <div class="gc-footer-card animate__animated animate__zoomIn">
-                      <h3 class="p-3">Trabajamos</h3>
-                      <p class="p-4">por una gran causa</p>
+                  <div class="gc-footer-card">
+                      <h3 class="p-3 bg-color-green">Trabajamos</h3>
+                      <p class="p-3">por una gran causa</p>
                     </div>
                   </div>
                 </div>
@@ -81,7 +81,7 @@
                     articulando los siguientes tres ejes: 
                   </h6>
               </div>
-              <div class="row mt-5">
+              <div class="row mt-5 text-center">
                 <div class="row text-center mt-2">
                   <div class="col-sm-6 col-md-4 col-lg-4"><object class="gc-ejes-img" data="./img/la.svg" type="image/svg+xml"></object>
                     <h4 class="objetivo">Crecimiento</h4>
@@ -106,7 +106,47 @@
         </div>
         </section>
       </main>
-
+      
+      <footer class="mt-2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 gc-footer-info">
+              <h4 class=" p-2">Escribinos</h4>
+              <ul>
+                <ul>
+                  <li>Manzoni 1360,</li>
+                  <li>Gonzalez Catán</li>
+                  <li>Provincia de Buenos Aires</li>
+                  <li>Tel. (54)5277 0815</li>
+                  <li>info@proyectogc.org</li>
+                </ul>
+                
+                <img class="gc-slogan" src="./img/logoGC_slogan.webp">
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 mx-auto mt-3 mt-md-0">
+              <form>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" placeholder="Nombre" class="form-control" id="nombre" aria-describedby="nombre">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" placeholder="miemail@mail.com" class="form-control" id="email" aria-describedby="email">
+                </div>
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" aria-describedby="mensajeHelp"></textarea>
+                  <div id="mensajeHelp" class="form-text">Contanos en que podemos ayudarte. 200 caracteres</div>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 </header>
   </body>

@@ -12,23 +12,26 @@
   background-color: var(--bs-light);
 }
 
-@media screen and (min-width: 992px) {
-  .img-home-header-size {
-    background-image: url(../img/home-lg.jpg);
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
+.img-home-header-size {
+  background-image: url(../img/home-lg.jpg);
+  height: 25em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  position: relative;
 }
 
 .p-3 {
   padding: 1rem !important;
 }
 
+.bg-color-green {
+  background-color: #28a745 !important;
+  /* Otros estilos que desees aplicar al recuadro con fondo verde */
+}
 @media (min-width: 1200px) {
-  h3 {
+  .h3 {
     font-size: 1.75rem;
     display: block;
     margin-block-start: 1em;
@@ -41,8 +44,8 @@
 .gc-footer-card {
   position: absolute;
   right: 2%;
-  bottom: 5%;
-  width: 300px;
+  bottom: 1%;
+  width: 450px;
   text-align: center;
   background: transparent;
   border: none;
@@ -58,23 +61,8 @@
   margin-bottom: 1rem;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.p-3 {
+.p-2 {
   background-color: #28a745 !important;
-  width: 11em;
 }
 
 .h3 {
@@ -90,16 +78,53 @@
   text-align: center;
   font-weight: 400;
 }
-.text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
-}
 
 .gc-texto-resaltado {
   background-color: #3092fc;
+}
+
+footer {
+  background: #3c4146;
+  color: white;
+  padding: 40px;
+}
+
+.form-text {
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #6c757d !important;
+}
+
+.gc-slogan {
+  background-color: white;
+}
+
+.li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.gc-footer-info ul {
+  list-style: none;
+}
+
+.ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
