@@ -11883,6 +11883,17 @@ textarea.form-control-lg {
   position: relative;
 }
 
+.gc-qs-img-home-card {
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  width: 60%;
+  text-align: center;
+  background: transparent;
+  border: none;
+  line-height: 30px;
+}
+
 .h1,
 .h2,
 .h3,
@@ -11942,6 +11953,7 @@ div {
   margin-inline-end: 0px;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .p-2 {

@@ -7,7 +7,7 @@
     height: auto !important;
   }
 }
-
+//imagen banner seccion index
 .gc-qs-img-home {
   background-image: url(../img/actividades-sm.jpg);
   height: 400px;
@@ -16,7 +16,7 @@
   background-position: center;
   position: relative;
 }
-
+//imagen banner seccion actividades
 .img-home-header-size {
   background-image: url(../img/home-lg.jpg);
   height: 25em;
@@ -26,6 +26,18 @@
   background-position: center;
   position: relative;
 }
+//card de quienes somos banner
+.gc-qs-img-home-card {
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  width: 60%;
+  text-align: center;
+  background: transparent;
+  border: none;
+  line-height: 30px;
+}
+
 .h1,
 .h2,
 .h3,
@@ -83,6 +95,7 @@ div {
   margin-inline-end: 0px;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .p-2 {
@@ -160,5 +173,3 @@ footer {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
-
-// Animaciones
