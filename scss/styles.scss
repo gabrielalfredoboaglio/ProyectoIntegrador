@@ -21,7 +21,23 @@
   background-position: center;
   position: relative;
 }
-
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
 .p-3 {
   padding: 1rem !important;
 }
@@ -40,11 +56,14 @@
     margin-inline-end: 0px;
   }
 }
+div {
+  display: block;
+}
 
 .gc-footer-card {
   position: absolute;
   right: 2%;
-  bottom: 1%;
+  bottom: 5%;
   width: 450px;
   text-align: center;
   background: transparent;
@@ -66,6 +85,13 @@
 }
 
 .h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -127,4 +153,6 @@ footer {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
