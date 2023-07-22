@@ -8,6 +8,15 @@
   }
 }
 
+.gc-qs-img-home {
+  background-image: url(../img/actividades-sm.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .img-home-header-size {
   background-image: url(../img/home-lg.jpg);
   height: 25em;
@@ -151,3 +160,5 @@ footer {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
+
+// Animaciones

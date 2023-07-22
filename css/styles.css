@@ -11864,8 +11864,13 @@ textarea.form-control-lg {
     height: auto !important;
   }
 }
-.navbar {
-  background-color: var(--bs-light);
+.gc-qs-img-home {
+  background-image: url(../img/actividades-sm.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .img-home-header-size {
@@ -11876,6 +11881,24 @@ textarea.form-control-lg {
   text-align: center;
   background-position: center;
   position: relative;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .p-3 {
@@ -11897,6 +11920,10 @@ textarea.form-control-lg {
     margin-inline-end: 0px;
   }
 }
+div {
+  display: block;
+}
+
 .gc-footer-card {
   position: absolute;
   right: 2%;
@@ -11922,6 +11949,13 @@ textarea.form-control-lg {
 }
 
 .h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -11957,7 +11991,6 @@ footer {
 
 .li {
   display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 .gc-footer-info ul {
@@ -11983,6 +12016,8 @@ footer {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
 
 /*# sourceMappingURL=styles.css.map */
