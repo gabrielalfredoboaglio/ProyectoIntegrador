@@ -17,6 +17,73 @@
     />
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img
+              class="navbar-brand gc-navbar-brand"
+              src="../img/logoProyectoInt.png"
+              alt="ProyectoGC"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav align-items-sm-start align-items-md-left align-items-lg-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/quienes-somos.html"
+                  >QUIENES SOMOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proyecto.html">PROYECTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/actividades.html"
+                  >ACTIVIDADES</a
+                >
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="../pages/colaborar.html">COLABORAR</a>
+              </li>
+              <!-- <hr class="divider"> -->
+              <li class="nav-item rounded">
+                <a class="nav-link" href="../pages/inscripciones.html"
+                  >INSCRIPCIONES</a
+                >
+              </li>
+              <li class="nav-item rounded">
+                <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="row">
+      <div class="col d-flex">
+        <img class="img-fluid mx-3" src="../img/aprendiendo-sm.jpg" />
+        <img class="img-fluid mx-3" src="../img/levantando-manos-sm.jpg" />
+        <img class="img-fluid mx-3" src="../img/proyecto-header-sm.jpg" />
+        <img class="img-fluid mx-3" src="../img/recreacion-0-md.jpg" />
+      </div>
+    </div>
+
     <main>
       <section class="container mt-5">
         <div class="row">
@@ -52,6 +119,60 @@
         </div>
       </section>
     </main>
+    <footer class="mt-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 gc-footer-info text-start">
+            <h4 class="p-2">Escribinos</h4>
+            <ul>
+              <li>Manzoni 1360,</li>
+              <li>Gonzalez Catán</li>
+              <li>Provincia de Buenos Aires</li>
+              <li>Tel. (54)5277 0815</li>
+              <li>info@proyectogc.org</li>
+              <img class="gc-slogan" src="../img/logoGC_slogan.webp" />
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 mx-auto mt-3 mt-md-0">
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  class="form-control"
+                  id="nombre"
+                  aria-describedby="nombre"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  placeholder="miemail@mail.com"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  aria-describedby="mensajeHelp"
+                ></textarea>
+                <div id="mensajeHelp" class="form-text">
+                  Contanos en que podemos ayudarte. 200 caracteres
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       type="module"
       src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
