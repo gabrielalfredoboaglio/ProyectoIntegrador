@@ -13,6 +13,7 @@
   animation: animacionTitulo 0.5s ease-out;
 }
 
+/* Animación */
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -24,4 +25,19 @@
 /* Clase para la animación */
 .animado {
   animation: aparecer 0.9s ease-out;
+}
+
+/* Animación */
+@keyframes animacionTituloIndex {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Clase para la animación */
+.titulo-animado-index {
+  animation: animacionTituloIndex 1s ease-out;
 }
