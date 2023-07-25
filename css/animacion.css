@@ -1,4 +1,4 @@
-/* Animación */
+/* Animación de web viniedo desde fuera de la pantalla a la izquierda hacia la web   */
 @keyframes animacionTitulo {
   0% {
     transform: translateX(500%);
@@ -8,12 +8,12 @@
   }
 }
 
-/* Clase para la animación */
+/* Clase para la animación  desde fuera de la pantalla a la izquierda hacia la web  */
 .titulo-animado {
   animation: animacionTitulo 0.5s ease-out;
 }
 
-/* Animación */
+/* Animación de web apareciendo lentamente */
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -22,12 +22,12 @@
     opacity: 1;
   }
 }
-/* Clase para la animación */
+/* Clase para la animación apareciendo lentamente  */
 .animado {
   animation: aparecer 0.9s ease-out;
 }
 
-/* Animación */
+/* Animación de web  logo desde  desde centro hacia la izquierda de la pantalla*/
 @keyframes animacionTituloIndex {
   0% {
     transform: translateX(100%);
@@ -37,7 +37,7 @@
   }
 }
 
-/* Clase para la animación */
+/* Clase para la animación desde  desde centro hacia la izquierda de la pantalla*/
 .titulo-animado-index {
   animation: animacionTituloIndex 1s ease-out;
 }

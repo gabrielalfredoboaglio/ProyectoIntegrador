@@ -1,6 +1,7 @@
 // Importar el archivo SCSS de Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+//Estilo para navbar
 @media screen and (min-width: 0px) {
   .gc-navbar-brand {
     width: 50px !important;
@@ -16,7 +17,7 @@
   background-position: center;
   position: relative;
 }
-//imagen banner seccion actividades
+//imagen banner seccion actividades, quienes somos y proyecto
 .img-home-header-size {
   background-image: url(../img/home-lg.jpg);
   height: 25em;
@@ -26,6 +27,7 @@
   background-position: center;
   position: relative;
 }
+
 //card de quienes somos banner
 .gc-qs-img-home-card {
   position: absolute;
@@ -37,7 +39,7 @@
   border: none;
   line-height: 30px;
 }
-
+//Estilos generales de todos los h
 .h1,
 .h2,
 .h3,
@@ -55,52 +57,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
 }
-.p-3 {
-  padding: 1rem !important;
-}
-
-.bg-color-green {
-  background-color: #28a745 !important;
-}
-@media (min-width: 1200px) {
-  .h3 {
-    font-size: 1.75rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-}
-div {
-  display: block;
-}
-
-.gc-footer-card {
-  position: absolute;
-  right: 2%;
-  bottom: 5%;
-  width: 450px;
-  text-align: center;
-  background: transparent;
-  border: none;
-}
-
-.p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-
-.p-2 {
-  background-color: #28a745 !important;
-}
-
+//Estilos especificos de h3
 .h3 {
   display: block;
   font-size: 1.17em;
@@ -112,8 +69,56 @@ div {
   text-align: center;
 }
 
+//Estilos especificos de h6
 .h6 {
   text-align: center;
+}
+
+//Estilos generales de todos los parrafos
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+//Estilos especificos de p-2
+.p-2 {
+  background-color: #28a745 !important;
+}
+
+//Estilos especificos de p-3
+.p-3 {
+  padding: 1rem !important;
+}
+
+//Estilo para diseño responsivo hasta 1200 px
+@media (min-width: 1200px) {
+  .h3 {
+    font-size: 1.75rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+
+div {
+  display: block;
+}
+//Estilo especifico para las card de la web
+.gc-footer-card {
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 450px;
+  text-align: center;
+  background: transparent;
+  border: none;
 }
 
 .gc-texto-normal {
@@ -122,34 +127,26 @@ div {
   font-weight: 400;
 }
 
+//Estilo especifico usado en paginas de inscripciones y pagina actividades
 .gc-texto-resaltado {
   background-color: #3092fc;
 }
 
-footer {
-  background: #3c4146;
-  color: white;
-  padding: 40px;
-}
-
-.form-text {
-  margin-top: 0.25rem;
-  font-size: 0.875em;
-  color: #6c757d !important;
-}
-
+//Estilo para slogan de footer
 .gc-slogan {
   background-color: white;
 }
 
+//Estilo  para la lista de footer
+.gc-footer-info ul {
+  list-style: none;
+}
+//Estilo  para la lista de footer
 .li {
   display: list-item;
 }
 
-.gc-footer-info ul {
-  list-style: none;
-}
-
+//Estilo  generales para listas
 .ul {
   display: block;
   margin-block-start: 1em;
@@ -158,7 +155,7 @@ footer {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
-
+//Estilo  generales para contenedores
 .container,
 .container-fluid,
 .container-lg,
@@ -172,7 +169,24 @@ footer {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
-
+//Estilo  especifico para parrafo del formulario del formulario de footer
+.form-text {
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #6c757d !important;
+}
+//Estulo para el titulo de el formulario de Inscripcion
 .text-green {
   color: green;
+}
+
+//Color especifico para el footer Escribinos y para todos las gc-footer-card
+.bg-color-green {
+  background-color: #28a745 !important;
+}
+//Estilo  general para el footer
+footer {
+  background: #3c4146;
+  color: white;
+  padding: 40px;
 }
