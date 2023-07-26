@@ -190,3 +190,12 @@ footer {
   color: white;
   padding: 40px;
 }
+
+.nav-item a {
+  color: black;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.nav-item a:hover {
+  color: black; /* Cambia el color cuando el enlace se encuentra en hover */
+}
