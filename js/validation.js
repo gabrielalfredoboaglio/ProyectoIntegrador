@@ -1,3 +1,5 @@
+//Validacion de formulario de inscripcion
+
 //aplica las validaciones de Bootstrap a los formularios que tienen la clase "needs-validation"
 
 const forms = document.querySelectorAll(".needs-validation");
