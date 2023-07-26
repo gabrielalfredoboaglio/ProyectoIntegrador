@@ -17,13 +17,13 @@ Array.from(formFooter).forEach((form) => {
 
 // Validar formulario al hacer clic en botón enviar
 document.getElementById("enviarBtnFooter").addEventListener("click", (e) => {
-  const form = document.getElementById("formularioFooter");
-  if (form.checkValidity()) {
+  const formFt = document.getElementById("formularioFooter");
+  if (formFt.checkValidity()) {
     // Formulario válido, permitir envío
   } else {
     e.preventDefault();
     e.stopPropagation();
-    form.classList.add("was-validated");
+    formFt.classList.add("was-validated");
   }
 });
 
