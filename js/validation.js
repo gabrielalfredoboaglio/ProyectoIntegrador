@@ -1,3 +1,6 @@
+// Obtener todos los formularios
+const forms = document.querySelectorAll(".needs-validation");
+
 // Iterar sobre cada formulario
 Array.from(forms).forEach((form) => {
   // Agregar manejador de envío
@@ -6,7 +9,6 @@ Array.from(forms).forEach((form) => {
     if (!form.checkValidity()) {
       e.preventDefault();
       e.stopPropagation();
-      form.classList.add("was-validated");
     }
   });
 });
