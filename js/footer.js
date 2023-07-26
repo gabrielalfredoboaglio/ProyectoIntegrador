@@ -17,7 +17,6 @@ document
 
       document.getElementById("formularioFooter").reset();
     } else {
-      // El usuario canceló el envío
-      alert("Envío cancelado. Puedes revisar los campos antes de enviar.");
+      return;
     }
   });

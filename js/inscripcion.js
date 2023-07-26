@@ -19,11 +19,12 @@ document
 
     // Muestra un mensaje de confirmación al usuario indicando que el formulario fue enviado
     if (confirm("¿Estás seguro de que deseas enviar el formulario?")) {
-      alert("Formulario enviado. Gracias por completarlo.");
+      alert(
+        "El formulario ha sido registrado, nos comunicaremos en las proximas horas. ¡Muchas Gracias!."
+      );
 
       document.getElementById("miFormulario").reset();
     } else {
-      // El usuario canceló el envío
-      alert("Envío cancelado. Puedes revisar los campos antes de enviar.");
+      return;
     }
   });
