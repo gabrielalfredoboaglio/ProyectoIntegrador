@@ -9,7 +9,7 @@ document
 
     var nombreAlumno = document.getElementById("nombreAlumno").value;
 
-    var email = document.getElementById("email").value;
+    var email = document.getElementById("emailInsc").value;
 
     var telefono = document.getElementById("telefono").value;
 
