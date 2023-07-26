@@ -27,7 +27,10 @@ document.getElementById("enviarBtn").addEventListener("click", (e) => {
   }
 });
 
+//Fin Validacion para formulario de inscripcion
+
 //Validacion de telefono en caso de escribir letras o en caso de dejar vacio el input
+
 // Obtener elemento
 const telefono = document.getElementById("telefono");
 
@@ -64,3 +67,5 @@ function removerMensaje() {
   telefono.classList.remove("is-invalid");
   telefono.nextElementSibling.innerHTML = "";
 }
+
+//Fin Validacion de telefono en caso de escribir letras o en caso de dejar vacio el input
