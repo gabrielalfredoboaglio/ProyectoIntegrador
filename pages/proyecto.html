@@ -200,7 +200,7 @@
           </div>
 
           <div class="col-12 col-md-6 mx-auto mt-3 mt-md-0">
-            <form id="formularioFooter">
+            <form id="formularioFooter" class="needs-validation" novalidate>
               <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input
@@ -209,7 +209,9 @@
                   class="form-control"
                   id="nombre"
                   aria-describedby="nombre"
+                  required
                 />
+                <div class="invalid-feedback">Este dato es requerido.</div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -219,7 +221,9 @@
                   class="form-control"
                   id="email"
                   aria-describedby="email"
+                  required
                 />
+                <div class="invalid-feedback">Este dato es requerido.</div>
               </div>
               <div class="mb-3">
                 <label for="mensaje" class="form-label">Mensaje</label>
@@ -232,7 +236,13 @@
                   Contanos en que podemos ayudarte. 200 caracteres
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button
+                id="enviarBtnFooter"
+                type="submit"
+                class="btn btn-primary"
+              >
+                Enviar
+              </button>
             </form>
           </div>
         </div>
@@ -246,5 +256,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../js/footer.js"></script>
+    <script src="../js/validacionFooter.js"></script>
   </body>
 </html>
