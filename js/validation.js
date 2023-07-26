@@ -1,3 +1,5 @@
+//Validacion para formulario de inscripcion
+
 // Obtener todos los formularios
 const forms = document.querySelectorAll(".needs-validation");
 
