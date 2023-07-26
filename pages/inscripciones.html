@@ -135,20 +135,28 @@
                 <label><strong>Nombre</strong></label>
                 <input
                   type="text"
+                  pattern="[A-Za-z]*"
                   class="form-control"
                   placeholder="Nombre y apellido (padre/madre/tutor)"
                   id="nombrePadre"
                 />
+                <div class="invalid-feedback">
+                  No se permiten números en la caja de nombres
+                </div>
               </div>
 
               <div class="form-group mt-2">
                 <label><strong>Nombre Alumno</strong></label>
                 <input
                   type="text"
+                  pattern="[A-Za-z]*"
                   class="form-control"
                   placeholder="Nombre Alumno"
                   id="nombreAlumno"
                 />
+                <div class="invalid-feedback">
+                  No se permiten números en la caja de nombres
+                </div>
               </div>
 
               <div class="form-group mt-2">
@@ -169,6 +177,7 @@
                   type="text"
                   class="form-control"
                   placeholder="Número de teléfono *"
+                  pattern="\d*"
                   id="telefono"
                   required
                 />
